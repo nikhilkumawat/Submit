@@ -1,0 +1,23 @@
+For solve the problem I follow some steps:-
+
+Create Python Virtual Environments(Windows)
+There virtualenv is a tool to create python environment.
+	
+1. Install virtualenv via pip:
+	\>pip install virtualenv
+
+2. Create a virtual environment
+	\>mydir project_folder
+	\>cd project_folder
+	\project_folder>virtualenv project
+	\project_folder>cd project/Scripts
+	\project_folder\project\Scripts>activate
+	(project) \project_folder\project\Scripts>
+	
+3. There I copy the dependencies into an empty file in (.txt) formet and placed that file into project folder
+
+4. Now run that file using pip
+	(project) \project_folder\project\Scripts>cd ..
+	(project) \project_folder\project>pip install -r "Dependencies.txt"
+	
+Now all Dependencies will start for download.
